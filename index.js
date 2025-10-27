@@ -1,5 +1,5 @@
 const express = require('express');
-process.loadEnvFiles();
+process.loadEnvFile();
 
 const app = express();
 const port = 3000 || process.env.PORT;
