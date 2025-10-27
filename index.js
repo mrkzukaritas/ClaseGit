@@ -6,11 +6,6 @@ app.listen(port, () => {
   console.log(`uola`);
 });
 app.listen(port, () => {
-<<<<<<< HEAD
+  HEAD
   console.log(`uiujhjnhjhbjhba`);
 });
-=======
-  console.log(`pero es que`);
-});
-
->>>>>>> c5aa9f9d3bd79b4e14b518cd026a6a2a9c7daf92
