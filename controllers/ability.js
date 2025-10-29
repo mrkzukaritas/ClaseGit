@@ -1,7 +1,7 @@
 const abilityController = {}
 const axios = require('axios');
 
-comicsController.getAbility = (req, res) => {
+abilityController.getAbility = async(req, res) => {
     const POKEMON_API = process.env.POKEMON_API;
 
 axios.get(`${POKEMON_API}/ability`)
@@ -12,3 +12,4 @@ axios.get(`${POKEMON_API}/ability`)
         console.error('Error fetching abilitys:', error);
     });
 }
+module.exports=abilityController;
