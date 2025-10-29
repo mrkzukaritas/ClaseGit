@@ -1,7 +1,7 @@
 const typeController = {}
 const axios = require('axios');
 
-typeController.getTypes = (req, res) => {
+typeController.getType = (req, res) => {
     const APIKEY = process.env.APIKEY;
     const TS = process.env.TS;
     const HASH = process.env.HASH;
@@ -12,9 +12,9 @@ typeController.getTypes = (req, res) => {
             res.json(response.data);
         })
         .catch(error => {
-            console.error('Error fetching types:', error);
+            console.error('Error fetching type:', error);
         });
 
 }
 
-module.exports = typesController;
+module.exports = typeController;
