@@ -1,19 +1,14 @@
-Perfecto 💪 aquí tienes el **README completo en un solo bloque**, listo para **copiar y pegar directamente en tu repositorio de GitHub** 👇
 
----
 
-```markdown
 # 🐾 Pokémon API
 
 Este proyecto utiliza la **[PokéAPI](https://pokeapi.co/)** como fuente de datos para acceder a información sobre Pokémon, sus tipos, habilidades y especies.
 
 ## 🌐 Base URL
 
-```
 
 POKEMON_API=[https://pokeapi.co/api/v2/](https://pokeapi.co/api/v2/)
 
-```
 
 ## 🔗 Endpoints disponibles
 
@@ -27,25 +22,24 @@ POKEMON_API=[https://pokeapi.co/api/v2/](https://pokeapi.co/api/v2/)
 ## 🧩 Ejemplos de uso
 
 ### 🔍 Obtener lista de Pokémon
-```
+
 
 GET [https://pokeapi.co/api/v2/pokemon](https://pokeapi.co/api/v2/pokemon)
 
-```
 
 ### ⚡ Obtener un Pokémon específico
-```
+
 
 GET [https://pokeapi.co/api/v2/pokemon/pikachu](https://pokeapi.co/api/v2/pokemon/pikachu)
 
-```
+
 
 ### 🌱 Obtener todos los tipos
-```
+
 
 GET [https://pokeapi.co/api/v2/type](https://pokeapi.co/api/v2/type)
 
-```
+
 
 ## 🧠 Requisitos
 
@@ -56,9 +50,3 @@ GET [https://pokeapi.co/api/v2/type](https://pokeapi.co/api/v2/type)
 
 👉 [https://pokeapi.co/docs/v2](https://pokeapi.co/docs/v2)
 
----
-
-💛 *Proyecto creado para practicar el consumo de APIs públicas con la PokéAPI.*
-```
-
----
