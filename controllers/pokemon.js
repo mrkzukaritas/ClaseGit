@@ -13,4 +13,4 @@ pokemonController.getPokemon =  async(req, res) => {
 
 }
 
-module.exports = comicsController;
+module.exports = pokemonController;
